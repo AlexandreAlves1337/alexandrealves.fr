@@ -1,0 +1,124 @@
+
+@media only screen and (max-width: 1700px) {
+    .ccexperiences div h2 {font-size: 1em}
+
+    .ccexperiences div p {font-size: .90em}
+
+    .ccexperiences div ul {font-size: .95em;}
+
+}
+
+@media only screen and (max-width: 1400px) {
+    .ccexperiences div h2 {font-size: .95em}
+
+    .ccexperiences div p {font-size: .85em}
+
+    .ccexperiences div ul {font-size: .90em;}
+
+}
+
+@media only screen and (max-width: 1260px) {
+    .ccexperiences div h2 {font-size: .90em}
+
+    .ccexperiences div p {font-size: .80em}
+
+    .ccexperiences div ul {font-size: .85em;}
+
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        background-image: linear-gradient(to left, #3b3b3b, #2d2d2d, #202020, #141414, #000000);
+    }
+
+    nav {	 
+        background: none;
+    }
+
+    section {
+	    height: 100%;
+        padding-top:75px;
+        background: none;
+    }
+
+    .cpres {margin: 10% auto;}
+
+    .cpres > h1 {
+        clip-path: circle(37%);
+      }
+
+    .mySlides {display: none;  width:75vw; margin:0 auto;}
+
+    .csite img {width:75vw;}
+
+    .ccexperiences {
+        display: block;
+    }
+
+    .ccexperiences div {
+        margin-bottom: 16px;
+    }
+
+    .ccexperiences div:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Position the "next button" to the right */
+.prev {
+	left: 0;
+  }
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+    .cform {margin-bottom: 50px;}
+
+    .cform form ul {
+        display:block;
+    }
+
+    .cform form textarea {
+        width:75%; 
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    section {padding-top: 50px;}
+
+    nav {	
+        height:37.5px;
+        padding-left: 0px;  
+        background: none;
+    }
+
+    .block-menu {
+        text-align: center;
+    }
+
+    .block-menu li a {
+        vertical-align: middle;
+        line-height:8px;
+        height:37.5px;
+        font-size: 1.8vh; 
+        padding: 0 6px;
+    }
+
+    .block-menu .front, .block-menu .back {
+        padding: 14px 5px;
+    }
+
+    .cform form ul li label {
+    font-size: 2.6vw;
+    }
+
+    .cpres > h1 {clip-path: circle(30%);}
+}
+
+@media only screen and (max-width: 300px) {
+    .prev, .next {font-size: 11px}
+
+    .cpres > h1 {clip-path: circle(20%);}
+  }
